@@ -1,9 +1,10 @@
 export default function AboutPage() {
   return (
-    <div style={{background:'black', color:'white', minHeight:'100vh', padding:'50px'}}>
-      <h1 style={{fontSize:'40px'}}>About Us</h1>
-      <p style={{marginTop:'20px'}}>FlyRank is an AI SEO platform.</p>
-      <p>Built by Team FlyRank</p>
+    <div style={{ padding: '40px', fontFamily: 'sans-serif' }}>
+      <h1>About FlyRank</h1>
+      <p>FlyRank is an SEO tool that helps you rank higher on Google.</p>
+      <p>We provide powerful tools for content optimization and keyword research.</p>
+      <a href="/">Back to Home</a>
     </div>
   );
 }
